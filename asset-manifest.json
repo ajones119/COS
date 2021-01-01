@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/COS/static/css/main.53d5ace3.chunk.css",
+    "main.js": "/COS/static/js/main.39c38e17.chunk.js",
+    "main.js.map": "/COS/static/js/main.39c38e17.chunk.js.map",
+    "runtime-main.js": "/COS/static/js/runtime-main.fd265732.js",
+    "runtime-main.js.map": "/COS/static/js/runtime-main.fd265732.js.map",
+    "static/js/2.ca965f60.chunk.js": "/COS/static/js/2.ca965f60.chunk.js",
+    "static/js/2.ca965f60.chunk.js.map": "/COS/static/js/2.ca965f60.chunk.js.map",
+    "static/js/3.0bce2692.chunk.js": "/COS/static/js/3.0bce2692.chunk.js",
+    "static/js/3.0bce2692.chunk.js.map": "/COS/static/js/3.0bce2692.chunk.js.map",
+    "index.html": "/COS/index.html",
+    "static/css/main.53d5ace3.chunk.css.map": "/COS/static/css/main.53d5ace3.chunk.css.map",
+    "static/js/2.ca965f60.chunk.js.LICENSE.txt": "/COS/static/js/2.ca965f60.chunk.js.LICENSE.txt",
+    "static/media/COS-1.984df98c.jpg": "/COS/static/media/COS-1.984df98c.jpg",
+    "static/media/Kandis-1.533d3a76.jpg": "/COS/static/media/Kandis-1.533d3a76.jpg",
+    "static/media/logo.6ce24c58.svg": "/COS/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd265732.js",
+    "static/js/2.ca965f60.chunk.js",
+    "static/css/main.53d5ace3.chunk.css",
+    "static/js/main.39c38e17.chunk.js"
+  ]
+}
