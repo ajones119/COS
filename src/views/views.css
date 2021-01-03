@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
 .Title {
     white-space: pre-line;
     font-size: 60px;
@@ -6,10 +9,21 @@
     text-shadow: 10px;
   }
 
+.subTitle {
+    white-space: pre-line;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 10px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+
  .playerImage {
     border-radius: 8px;
-    width: auto;
+    width: 100%;
     height: auto;
+    max-width: 500px;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -20,4 +34,21 @@
      width: auto;
      height: auto;
  }
+
+ .spellList {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18 px;
+   position: absolute;
+   bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px; 
+
+ }
+
+
+
+
   

@@ -14,6 +14,7 @@ import Home from './views/Home';
 import PCs from './views/playerCharacters';
 import Places from './views/Places';
 import Kandis from './views/Kandis';
+import Florence from './views/Florence';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/' exact component={Home}/>
         <Route path='/playerCharacters' exact component={PCs}/>
         <Route path='/playerCharacters/Kandis' component={Kandis}/>
+        <Route path='/playerCharacters/Florence' component={Florence}/>
 
         <Route path='/places' component={Places}/>
 
