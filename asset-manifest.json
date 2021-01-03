@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/COS/static/css/main.862100bd.chunk.css",
-    "main.js": "/COS/static/js/main.3002df31.chunk.js",
-    "main.js.map": "/COS/static/js/main.3002df31.chunk.js.map",
+    "main.css": "/COS/static/css/main.8dda7c2e.chunk.css",
+    "main.js": "/COS/static/js/main.2be0db2e.chunk.js",
+    "main.js.map": "/COS/static/js/main.2be0db2e.chunk.js.map",
     "runtime-main.js": "/COS/static/js/runtime-main.c7278166.js",
     "runtime-main.js.map": "/COS/static/js/runtime-main.c7278166.js.map",
     "static/js/2.8fb61c6d.chunk.js": "/COS/static/js/2.8fb61c6d.chunk.js",
@@ -10,18 +10,24 @@
     "static/js/3.e8b6164f.chunk.js": "/COS/static/js/3.e8b6164f.chunk.js",
     "static/js/3.e8b6164f.chunk.js.map": "/COS/static/js/3.e8b6164f.chunk.js.map",
     "index.html": "/COS/index.html",
-    "static/css/main.862100bd.chunk.css.map": "/COS/static/css/main.862100bd.chunk.css.map",
+    "static/css/main.8dda7c2e.chunk.css.map": "/COS/static/css/main.8dda7c2e.chunk.css.map",
     "static/js/2.8fb61c6d.chunk.js.LICENSE.txt": "/COS/static/js/2.8fb61c6d.chunk.js.LICENSE.txt",
     "static/media/COS-1.984df98c.jpg": "/COS/static/media/COS-1.984df98c.jpg",
     "static/media/Florence-1.daf7f8dd.png": "/COS/static/media/Florence-1.daf7f8dd.png",
     "static/media/Kandis-1.533d3a76.jpg": "/COS/static/media/Kandis-1.533d3a76.jpg",
+    "static/media/abjuration.9ae77542.jpg": "/COS/static/media/abjuration.9ae77542.jpg",
     "static/media/divination.57c17523.jpg": "/COS/static/media/divination.57c17523.jpg",
-    "static/media/logo.6ce24c58.svg": "/COS/static/media/logo.6ce24c58.svg"
+    "static/media/enchantment.6c35284b.jpg": "/COS/static/media/enchantment.6c35284b.jpg",
+    "static/media/evocation.5a225947.png": "/COS/static/media/evocation.5a225947.png",
+    "static/media/illusion.ac72fb41.jpg": "/COS/static/media/illusion.ac72fb41.jpg",
+    "static/media/logo.6ce24c58.svg": "/COS/static/media/logo.6ce24c58.svg",
+    "static/media/necromancy.29dbfeee.png": "/COS/static/media/necromancy.29dbfeee.png",
+    "static/media/transmutation.2fc8782c.jpg": "/COS/static/media/transmutation.2fc8782c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c7278166.js",
     "static/js/2.8fb61c6d.chunk.js",
-    "static/css/main.862100bd.chunk.css",
-    "static/js/main.3002df31.chunk.js"
+    "static/css/main.8dda7c2e.chunk.css",
+    "static/js/main.2be0db2e.chunk.js"
   ]
 }
