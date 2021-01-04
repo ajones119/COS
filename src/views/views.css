@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 
+
 .Title {
     white-space: pre-line;
     font-size: 60px;
@@ -18,9 +19,154 @@
     font-family: 'Oswald', sans-serif;
   }
 
+  .semi-transparent-button-dark{
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    max-width: 300px;
+    background: #fff; /* fallback color for old browsers */background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    /*color: black;*/
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+
+    white-space: pre-line;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 10px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .semi-transparent-button-title-dark{
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    max-width: 300px;
+    background: white; /* fallback color for old browsers */background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    /*color: black;*/
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+
+    white-space: pre-line;
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 10px;
+  }
+
+  .semi-transparent-button-light{
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    max-width: 300px;
+    background: #fff; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    /*color: black;*/
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+
+    white-space: pre-line;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 10px;
+    font-family: 'Oswald', sans-serif;
+
+    border-color: black;
+    border-style: solid;
+  }
+
+  .semi-transparent-button-title-light{
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    max-width: 300px;
+    background: white; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.20);
+    border-radius: 8px;
+    /*color: black;*/
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+
+    white-space: pre-line;
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 10px;
+
+    border-color: black;
+    border-style: solid;
+  }
+
+   a{
+    text-decoration: none;
+    color: black;
+  }
+
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-row-gap: 200px;
+    justify-content: center;
+  }
+
+  .card {
+    color: black;
+    padding: 1rem;
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    max-width: 300px;
+  }
+
+  .playerThumbnail{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 10px;
+  }
+
 
  .playerImage {
-    border-radius: 8px;
+    border-radius: 20px;
     width: 100%;
     height: auto;
     max-width: 500px;
@@ -45,7 +191,87 @@
   color: white;
   padding-left: 20px;
   padding-right: 20px; 
+ }
 
+ .garyxBackground{
+  background-image: url("../images/druidBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  max-height: 100vh;
+  overflow: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: wheat;
+ }
+ .kandisBackground{
+  background-image: url("../images/clericBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  max-height: 100vh;
+  overflow: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: black;
+ }
+ .florenceBackground{
+  background-image: url("../images/wildFireBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  max-height: 100vh;
+  overflow: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: wheat;
+ }
+ .sanjaBackground{
+  background-image: url("../images/hauntedCastleBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  max-height: 100vh;
+  overflow: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+ }
+
+ .homeBackground{
+  background-image: url("../images/homeBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  max-height: 100vh;
+  overflow: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: black;
+ }
+
+ .playerCharactersBackground{
+  background-image: url("../images/homeBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  max-height: 100vh;
+  overflow: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: black;
  }
 
 

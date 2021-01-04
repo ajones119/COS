@@ -9,31 +9,31 @@ import * as GiIcons from "react-icons/gi";
 export const SidebarData = [
     {
         title: 'Home',
-        path: '/',
+        path: '/COS',
         icon: <AiIcons.AiFillHome />,
         cName: 'nav-text'
     },
     {
         title: 'Player Characters',
-        path: '/playerCharacters',
+        path: '/COS/playerCharacters',
         icon: <Io5Icons.IoPeopleCircleOutline />,
         cName: 'nav-text'
     },
     {
         title: 'Places Visited',
-        path: '/places',
+        path: '/COS/places',
         icon: <GiIcons.GiMountainRoad />,
         cName: 'nav-text'
     },
     {
         title: 'Enemies Encoutered',
-        path: '/enemiesEncountered',
+        path: '/COS/enemiesEncountered',
         icon: <GiIcons.GiBadGnome />,
         cName: 'nav-text'
     },
     {
         title: 'Story So Far',
-        path: '/storySoFar',
+        path: '/COS/storySoFar',
         icon: <GiIcons.GiBookCover />,
         cName: 'nav-text'
     },

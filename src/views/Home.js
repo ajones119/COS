@@ -5,14 +5,14 @@ import COS from '../images/COS-1.jpg';
 
 export default function Home() {
 
-   const titleText= 'Curse Of Strahd:\nA tuesday Night D&D Group';
+   const titleText= 'Curse Of Strahd:\nA Tuesday Night D&D Group';
 
     return (
-        <div>
+        <div className='homeBackground'>
             <div className='home'>
             
                <div className='Title'>{titleText}</div>
-           
+                
             </div>
         </div>
     )

@@ -10,31 +10,31 @@ export const SidebarDataCharacters = [
     
     {
         title: 'Kandis',
-        path: '/playerCharacters/Kandis',
+        path: '/COS/playerCharacters/Kandis',
         icon: <GiIcons.GiHolyWater />,
         cName: 'nav-text'
     },
     {
         title: 'Garyx',
-        path: '/playerCharacters/Garyx',
+        path: '/COS/playerCharacters/Garyx',
         icon: <GiIcons.GiMagicSwirl />,
         cName: 'nav-text'
     },
     {
         title: 'Florence',
-        path: '/playerCharacters/Florence',
+        path: '/COS/playerCharacters/Florence',
         icon: < GiIcons.GiFireDash/>,
         cName: 'nav-text'
     },
     {
         title: 'Sanja',
-        path: '/playerCharacters/Sanja',
+        path: '/COS/playerCharacters/Sanja',
         icon: <GiIcons.GiAncientSword />,
         cName: 'nav-text'
     },
     {
         title: 'Home',
-        path: '/',
+        path: '/COS',
         icon: <AiIcons.AiFillHome />,
         cName: 'nav-text'
     }
