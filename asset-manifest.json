@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/COS/static/css/main.c16fdb47.chunk.css",
+    "main.css": "/COS/static/css/main.9cc4114e.chunk.css",
     "main.js": "/COS/static/js/main.61989a32.chunk.js",
     "main.js.map": "/COS/static/js/main.61989a32.chunk.js.map",
     "runtime-main.js": "/COS/static/js/runtime-main.9e2c7a7a.js",
@@ -10,7 +10,7 @@
     "static/js/3.426bde19.chunk.js": "/COS/static/js/3.426bde19.chunk.js",
     "static/js/3.426bde19.chunk.js.map": "/COS/static/js/3.426bde19.chunk.js.map",
     "index.html": "/COS/index.html",
-    "static/css/main.c16fdb47.chunk.css.map": "/COS/static/css/main.c16fdb47.chunk.css.map",
+    "static/css/main.9cc4114e.chunk.css.map": "/COS/static/css/main.9cc4114e.chunk.css.map",
     "static/js/2.e885627f.chunk.js.LICENSE.txt": "/COS/static/js/2.e885627f.chunk.js.LICENSE.txt",
     "static/media/COS-1.984df98c.jpg": "/COS/static/media/COS-1.984df98c.jpg",
     "static/media/Florence-1.daf7f8dd.png": "/COS/static/media/Florence-1.daf7f8dd.png",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.9e2c7a7a.js",
     "static/js/2.e885627f.chunk.js",
-    "static/css/main.c16fdb47.chunk.css",
+    "static/css/main.9cc4114e.chunk.css",
     "static/js/main.61989a32.chunk.js"
   ]
 }
