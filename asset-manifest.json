@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/COS/static/css/main.bf1ac32f.chunk.css",
-    "main.js": "/COS/static/js/main.58d2d97f.chunk.js",
-    "main.js.map": "/COS/static/js/main.58d2d97f.chunk.js.map",
-    "runtime-main.js": "/COS/static/js/runtime-main.5deaf92e.js",
-    "runtime-main.js.map": "/COS/static/js/runtime-main.5deaf92e.js.map",
-    "static/js/2.3304be94.chunk.js": "/COS/static/js/2.3304be94.chunk.js",
-    "static/js/2.3304be94.chunk.js.map": "/COS/static/js/2.3304be94.chunk.js.map",
-    "static/js/3.7babe5bb.chunk.js": "/COS/static/js/3.7babe5bb.chunk.js",
-    "static/js/3.7babe5bb.chunk.js.map": "/COS/static/js/3.7babe5bb.chunk.js.map",
+    "main.css": "/COS/static/css/main.a08e9425.chunk.css",
+    "main.js": "/COS/static/js/main.c8a24d83.chunk.js",
+    "main.js.map": "/COS/static/js/main.c8a24d83.chunk.js.map",
+    "runtime-main.js": "/COS/static/js/runtime-main.a07c5c4c.js",
+    "runtime-main.js.map": "/COS/static/js/runtime-main.a07c5c4c.js.map",
+    "static/js/2.d136c1de.chunk.js": "/COS/static/js/2.d136c1de.chunk.js",
+    "static/js/2.d136c1de.chunk.js.map": "/COS/static/js/2.d136c1de.chunk.js.map",
+    "static/js/3.91f10a0f.chunk.js": "/COS/static/js/3.91f10a0f.chunk.js",
+    "static/js/3.91f10a0f.chunk.js.map": "/COS/static/js/3.91f10a0f.chunk.js.map",
     "index.html": "/COS/index.html",
-    "static/css/main.bf1ac32f.chunk.css.map": "/COS/static/css/main.bf1ac32f.chunk.css.map",
-    "static/js/2.3304be94.chunk.js.LICENSE.txt": "/COS/static/js/2.3304be94.chunk.js.LICENSE.txt",
+    "static/css/main.a08e9425.chunk.css.map": "/COS/static/css/main.a08e9425.chunk.css.map",
+    "static/js/2.d136c1de.chunk.js.LICENSE.txt": "/COS/static/js/2.d136c1de.chunk.js.LICENSE.txt",
     "static/media/COS-1.984df98c.jpg": "/COS/static/media/COS-1.984df98c.jpg",
     "static/media/Florence-1-2.43ba5b4f.png": "/COS/static/media/Florence-1-2.43ba5b4f.png",
     "static/media/Garyx-1.6ae0a5cf.jpg": "/COS/static/media/Garyx-1.6ae0a5cf.jpg",
@@ -26,12 +26,12 @@
     "static/media/evocation.5a225947.png": "/COS/static/media/evocation.5a225947.png",
     "static/media/fighter.70c05098.png": "/COS/static/media/fighter.70c05098.png",
     "static/media/illusion.ac72fb41.jpg": "/COS/static/media/illusion.ac72fb41.jpg",
+    "static/media/ismark-2.0e0c72e3.png": "/COS/static/media/ismark-2.0e0c72e3.png",
     "static/media/lifeDomain-2.232e567d.jpg": "/COS/static/media/lifeDomain-2.232e567d.jpg",
     "static/media/logo.6ce24c58.svg": "/COS/static/media/logo.6ce24c58.svg",
     "static/media/minotaur-2.e6eca7ac.jpg": "/COS/static/media/minotaur-2.e6eca7ac.jpg",
     "static/media/minotaur.7cd90617.jpg": "/COS/static/media/minotaur.7cd90617.jpg",
     "static/media/necromancy.b99350b1.png": "/COS/static/media/necromancy.b99350b1.png",
-    "static/media/pcTba.38ff3c23.png": "/COS/static/media/pcTba.38ff3c23.png",
     "static/media/psiWarrior-3.2171a8ab.jpg": "/COS/static/media/psiWarrior-3.2171a8ab.jpg",
     "static/media/swamp.85d01e62.jpg": "/COS/static/media/swamp.85d01e62.jpg",
     "static/media/transmutation.2fc8782c.jpg": "/COS/static/media/transmutation.2fc8782c.jpg",
@@ -39,9 +39,9 @@
     "static/media/woodElf.b836d2b0.jpg": "/COS/static/media/woodElf.b836d2b0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5deaf92e.js",
-    "static/js/2.3304be94.chunk.js",
-    "static/css/main.bf1ac32f.chunk.css",
-    "static/js/main.58d2d97f.chunk.js"
+    "static/js/runtime-main.a07c5c4c.js",
+    "static/js/2.d136c1de.chunk.js",
+    "static/css/main.a08e9425.chunk.css",
+    "static/js/main.c8a24d83.chunk.js"
   ]
 }
