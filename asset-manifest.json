@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/COS/static/css/main.a08e9425.chunk.css",
-    "main.js": "/COS/static/js/main.c8a24d83.chunk.js",
-    "main.js.map": "/COS/static/js/main.c8a24d83.chunk.js.map",
+    "main.js": "/COS/static/js/main.b1221f66.chunk.js",
+    "main.js.map": "/COS/static/js/main.b1221f66.chunk.js.map",
     "runtime-main.js": "/COS/static/js/runtime-main.a07c5c4c.js",
     "runtime-main.js.map": "/COS/static/js/runtime-main.a07c5c4c.js.map",
-    "static/js/2.d136c1de.chunk.js": "/COS/static/js/2.d136c1de.chunk.js",
-    "static/js/2.d136c1de.chunk.js.map": "/COS/static/js/2.d136c1de.chunk.js.map",
+    "static/js/2.a8585159.chunk.js": "/COS/static/js/2.a8585159.chunk.js",
+    "static/js/2.a8585159.chunk.js.map": "/COS/static/js/2.a8585159.chunk.js.map",
     "static/js/3.91f10a0f.chunk.js": "/COS/static/js/3.91f10a0f.chunk.js",
     "static/js/3.91f10a0f.chunk.js.map": "/COS/static/js/3.91f10a0f.chunk.js.map",
     "index.html": "/COS/index.html",
     "static/css/main.a08e9425.chunk.css.map": "/COS/static/css/main.a08e9425.chunk.css.map",
-    "static/js/2.d136c1de.chunk.js.LICENSE.txt": "/COS/static/js/2.d136c1de.chunk.js.LICENSE.txt",
+    "static/js/2.a8585159.chunk.js.LICENSE.txt": "/COS/static/js/2.a8585159.chunk.js.LICENSE.txt",
     "static/media/COS-1.984df98c.jpg": "/COS/static/media/COS-1.984df98c.jpg",
     "static/media/Florence-1-2.43ba5b4f.png": "/COS/static/media/Florence-1-2.43ba5b4f.png",
     "static/media/Garyx-1.6ae0a5cf.jpg": "/COS/static/media/Garyx-1.6ae0a5cf.jpg",
@@ -40,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a07c5c4c.js",
-    "static/js/2.d136c1de.chunk.js",
+    "static/js/2.a8585159.chunk.js",
     "static/css/main.a08e9425.chunk.css",
-    "static/js/main.c8a24d83.chunk.js"
+    "static/js/main.b1221f66.chunk.js"
   ]
 }
