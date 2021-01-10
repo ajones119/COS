@@ -55,8 +55,11 @@
   }
 
   .nav-text a:hover {
-      background-color: aquamarine;
-  }
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: .75s;
+    transform: scale(1.2);
+}
 
   .nav-menu-items {
       width: 100%;

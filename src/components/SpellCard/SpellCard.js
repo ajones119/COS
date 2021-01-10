@@ -6,7 +6,7 @@ import {IconContext} from 'react-icons';
 class SpellCard extends React.Component {
     render() {
         return (
-            <div className='container'>
+            <div className='spellCard-container'>
                 <img className='spellCard' src={this.props.image} />
                 <div class='spellText'>
                     <h4 className='spellTitle'>{this.props.spellName}</h4>

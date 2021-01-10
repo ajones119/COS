@@ -1,0 +1,25 @@
+.pcstatcard-light{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    max-width: 300px;
+    background: #fff; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.40);
+    border-radius: 8px;
+    /*color: black;*/
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+
+    text-align: left;
+    white-space: pre-line;
+    text-shadow: 10px;
+    font-size: 40px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+  }

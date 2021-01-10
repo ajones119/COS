@@ -33,6 +33,12 @@ export const SidebarDataCharacters = [
         cName: 'nav-text'
     },
     {
+        title: 'Ismark',
+        path: '/COS/playerCharacters/Ismark',
+        icon: <GiIcons.GiHolyGrail />,
+        cName: 'nav-text'
+    },
+    {
         title: 'Home',
         path: '/COS',
         icon: <AiIcons.AiFillHome />,

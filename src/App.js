@@ -1,11 +1,11 @@
 //import React from "react";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
-  HashRouter
+  
 } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
@@ -18,6 +18,7 @@ import Kandis from './views/Kandis';
 import Florence from './views/Florence';
 import Garyx from './views/Garyx';
 import Sanja from './views/Sanja';
+import Ismark from './views/Ismark';
 
 
 
@@ -25,7 +26,6 @@ function App() {
   return (
    <>
     <Router>
-      <NavBar />
       <Switch>
         <Route path='/' exact component={Home}/>
         <Route path='/COS' exact component={Home}/>
@@ -34,6 +34,7 @@ function App() {
         <Route path='/COS/playerCharacters/Florence' component={Florence}/>
         <Route path='/COS/playerCharacters/Garyx' component={Garyx}/>
         <Route path='/COS/playerCharacters/Sanja' component={Sanja}/>
+        <Route path='/COS/playerCharacters/Ismark' component={Ismark}/>
 
 
         <Route path='/COS/places' component={Places}/>

@@ -10,6 +10,29 @@
     text-shadow: 10px;
   }
 
+  .Title-wheat {
+    white-space: pre-line;
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 10px;
+    color: wheat;
+  }
+
+  .Title-white {
+    white-space: pre-line;
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 10px;
+    color: whitesmoke;
+  }
+
+.button-group{
+  padding-bottom: 70px;
+
+}
+
 .subTitle {
     white-space: pre-line;
     font-size: 40px;
@@ -18,6 +41,8 @@
     text-shadow: 10px;
     font-family: 'Oswald', sans-serif;
   }
+
+
 
   .semi-transparent-button-dark{
     display: block;
@@ -36,12 +61,27 @@
     letter-spacing: 1px;
     transition: all 0.3s ease-out;
 
+
     white-space: pre-line;
     font-size: 40px;
     justify-content: center;
     text-align: center;
     text-shadow: 10px;
     font-family: 'Oswald', sans-serif;
+  }
+
+  .semi-transparent-button-dark:active{
+
+    background: #fff; /* fallback color for old browsers */background: rgba(0, 0, 0, 0.9);
+
+  }
+  .semi-transparent-button-dark:hover{
+    transition: .75s;
+    transform: scale(1.2);
+  }
+  .semi-transparent-button-title-dark:hover{
+    transition: .75s;
+    transform: scale(1.2);
   }
 
   .semi-transparent-button-title-dark{
@@ -67,6 +107,13 @@
     text-align: center;
     text-shadow: 10px;
   }
+
+  .semi-transparent-button-title-dark:active{
+
+    background: white; /* fallback color for old browsers */background: rgba(0, 0, 0, 0.9);
+
+  }
+
 
   .semi-transparent-button-light{
     display: block;
@@ -96,6 +143,14 @@
     border-style: solid;
   }
 
+  .semi-transparent-button-light:active{
+    background: #fff; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.9);
+  }
+  .semi-transparent-button-light:hover{
+    transition: .75s;
+    transform: scale(1.2);
+  }
+
   .semi-transparent-button-title-light{
     display: block;
     box-sizing: border-box;
@@ -103,6 +158,7 @@
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+
     width: 80%;
     max-width: 300px;
     background: white; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.20);
@@ -123,17 +179,112 @@
     border-style: solid;
   }
 
+  .semi-transparent-button-title-light:active{
+    background: white; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.90);
+  }
+
+  .semi-transparent-button-title-light:hover{
+    transition: .75s;
+    transform: scale(1.2);
+  }
+
+
+  .semi-transparent-button-title-light-pcCard{
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    width: 80%;
+    max-width: 300px;
+    background: white; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.20);
+    border-radius: 8px;
+    /*color: black;*/
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+
+    white-space: pre-line;
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 10px;
+
+    border-color: black;
+    border-style: solid;
+  }
+
+  .semi-transparent-button-title-light-pcCard:active{
+    background: white; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.90);
+  }
+
+  .semi-transparent-button-title-light-pcCard:hover{
+    background: white; background: rgba(0, 255, 255, 0.3);
+    transition: .75s;
+    transform: scale(1.2);
+  }
+
    a{
     text-decoration: none;
     color: black;
   }
 
+
+  @media (max-width: 900px) {
+    .lg-pc-hdr { display: none;}
+  }
+
+  @media (max-width: 600px) {
+  }
+
   @media (min-width: 600px) {
-    .cards { grid-template-columns: repeat(2, 1fr); }
+    .cards { grid-template-columns: repeat(2, 1fr);     }
+    .cards-pc { grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   @media (min-width: 900px) {
     .cards { grid-template-columns: repeat(3, 1fr); }
+    .cards-pc { grid-template-columns: repeat(3, 1fr);    }
+    .card-pc {margin-left: 1vh;}
+    .md-pc-hdr { display: none;}
+
+
+  }
+
+  .lg-pc-hdr{
+    height: auto;
+  }
+  .md-pc-hdr{
+    height: auto;
+  }
+
+  .cards-pc {
+    max-height: 700px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0;
+    display: grid;
+    grid-row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .card-pc {
+    color: black;
+    padding: 1rem;
+    width: 400px;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
   }
 
   .cards {
@@ -147,11 +298,13 @@
   .card {
     color: black;
     padding: 1rem;
-    height: auto;
+    height: 300px;
     max-height: 300px;
-    width: auto;
+    width: 300px;
     max-width: 300px;
   }
+
+
 
   .playerThumbnail{
     border-radius: 20px;
@@ -205,6 +358,8 @@
   justify-content: center;
   text-align: center;
   color: wheat;
+
+  z-index: -1;
  }
  .kandisBackground{
   background-image: url("../images/clericBackground.jpg");
@@ -219,6 +374,21 @@
   text-align: center;
   color: black;
  }
+
+ .ismarkBackground{
+  background-image: url("../images/ismark-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  max-height: 100vh;
+  overflow: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: black;
+ }
+
  .florenceBackground{
   background-image: url("../images/wildFireBackground.jpg");
   background-repeat: no-repeat;

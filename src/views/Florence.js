@@ -5,6 +5,8 @@ import Collapsible from 'react-collapsible';
 import CharSideBar from '../components/CharNavBar/CharNavBar'
 import SpellCard from '../components/SpellCard/SpellCard'
 import AbilityCard from '../components/AbilityCard/AbilityCard'
+import NavBar from "../components/NavBar/NavBar";
+
 
 import divination from '../images/divination.jpg'
 import abjuration from '../images/abjuration.jpg'
@@ -29,11 +31,13 @@ export class Florence extends Component {
     render() {
         return (
             <div className='florenceBackground'>
+            <NavBar />
             <CharSideBar />
             <div className='playerCharacters'> 
                 <div className='Title'>Florence</div>
             </div>
             <img className='playerImage' src={charImage} />
+            <div className='button-group'>
             <Collapsible trigger="Abilities" triggerClassName='semi-transparent-button-title-dark' triggerOpenedClassName='semi-transparent-button-title-dark'>
             <ul>
                 <li>
@@ -193,6 +197,7 @@ export class Florence extends Component {
             </ul>
             </Collapsible>
             </Collapsible>
+            </div>
 
         </div>
         )

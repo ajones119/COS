@@ -5,6 +5,9 @@ import Collapsible from 'react-collapsible';
 import CharSideBar from '../components/CharNavBar/CharNavBar'
 import SpellCard from '../components/SpellCard/SpellCard'
 import AbilityCard from '../components/AbilityCard/AbilityCard'
+import PCStatCardDark from '../components/PCStatCardDark/PCStatCardDark'
+import NavBar from "../components/NavBar/NavBar";
+
 
 import charImage from '../images/Garyx-1.jpg'
 import divination from '../images/divination.jpg'
@@ -29,12 +32,62 @@ import './views.css';
 export class Garyx extends Component {
     render() {
         return (
+
             <div className='garyxBackground'>
+            <NavBar />
             <CharSideBar />
-            <div className='playerCharacters'> 
-                <div className='Title'>Garyx</div>
-            </div>
-            <img className='playerImage' src={charImage} />
+            <div className='lg-pc-hdr'>
+                    <div className='cards-pc'>
+                        <div className='card-pc'>
+                            <PCStatCardDark Race='Minotaur'
+                            Class='Circle of Land Druid (Swamp)'
+                            Level='3'
+                            STR='14' STRMOD='+2'
+                            DEX='10' DEXMOD='0'
+                            CON='14' CONMOD='+2'
+                            INT='10' INTMOD='0'
+                            WIS='16' WISMOD='+3'
+                            CHA='14' CHAMOD='+2' />
+                        </div>
+
+                        <div className='card-pc'>
+                            <div className='playerCharacters'>
+                                <div className='Title-wheat'>Garyx</div>
+                            </div>
+                            <img className='playerImage' src={charImage} />
+                        </div>
+
+                        <div className='card-pc'>
+                            <div className='desc-box'>
+                                Here is some character backstory
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='md-pc-hdr'>                
+                        <div className='card-pc'>
+                            <div className='playerCharacters'>
+                                <div className='Title-wheat'>Garyx</div>
+                            </div>
+                            <img className='playerImage' src={charImage} />
+                        </div>
+
+                        <div className='card-pc'>
+                            <PCStatCardDark Race='Minotaur'
+                            Class='Circle of Land Druid (Swamp)'
+                            Level='3'
+                            STR='14' STRMOD='+2'
+                            DEX='10' DEXMOD='0'
+                            CON='14' CONMOD='+2'
+                            INT='10' INTMOD='0'
+                            WIS='16' WISMOD='+3'
+                            CHA='14' CHAMOD='+2' />
+                        </div>
+                </div>
+
+            <div className='button-group'>
+
             <Collapsible trigger="Abilities" triggerClassName='semi-transparent-button-title-dark' triggerOpenedClassName='semi-transparent-button-title-dark'>
             <ul>
                 <li>
@@ -222,6 +275,7 @@ export class Garyx extends Component {
             </ul>
             </Collapsible>
             </Collapsible>
+            </div>
         </div>
         )
     }
