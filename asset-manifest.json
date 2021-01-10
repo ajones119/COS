@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/COS/static/css/main.48687332.chunk.css",
-    "main.js": "/COS/static/js/main.e087d274.chunk.js",
-    "main.js.map": "/COS/static/js/main.e087d274.chunk.js.map",
-    "runtime-main.js": "/COS/static/js/runtime-main.a07c5c4c.js",
-    "runtime-main.js.map": "/COS/static/js/runtime-main.a07c5c4c.js.map",
-    "static/js/2.a8585159.chunk.js": "/COS/static/js/2.a8585159.chunk.js",
-    "static/js/2.a8585159.chunk.js.map": "/COS/static/js/2.a8585159.chunk.js.map",
-    "static/js/3.91f10a0f.chunk.js": "/COS/static/js/3.91f10a0f.chunk.js",
-    "static/js/3.91f10a0f.chunk.js.map": "/COS/static/js/3.91f10a0f.chunk.js.map",
+    "main.css": "/COS/static/css/main.717845f2.chunk.css",
+    "main.js": "/COS/static/js/main.4e977594.chunk.js",
+    "main.js.map": "/COS/static/js/main.4e977594.chunk.js.map",
+    "runtime-main.js": "/COS/static/js/runtime-main.05c13370.js",
+    "runtime-main.js.map": "/COS/static/js/runtime-main.05c13370.js.map",
+    "static/js/2.f21b959a.chunk.js": "/COS/static/js/2.f21b959a.chunk.js",
+    "static/js/2.f21b959a.chunk.js.map": "/COS/static/js/2.f21b959a.chunk.js.map",
+    "static/js/3.d4ba614b.chunk.js": "/COS/static/js/3.d4ba614b.chunk.js",
+    "static/js/3.d4ba614b.chunk.js.map": "/COS/static/js/3.d4ba614b.chunk.js.map",
     "index.html": "/COS/index.html",
-    "static/css/main.48687332.chunk.css.map": "/COS/static/css/main.48687332.chunk.css.map",
-    "static/js/2.a8585159.chunk.js.LICENSE.txt": "/COS/static/js/2.a8585159.chunk.js.LICENSE.txt",
+    "static/css/main.717845f2.chunk.css.map": "/COS/static/css/main.717845f2.chunk.css.map",
+    "static/js/2.f21b959a.chunk.js.LICENSE.txt": "/COS/static/js/2.f21b959a.chunk.js.LICENSE.txt",
     "static/media/COS-1.984df98c.jpg": "/COS/static/media/COS-1.984df98c.jpg",
     "static/media/Florence-1-2.43ba5b4f.png": "/COS/static/media/Florence-1-2.43ba5b4f.png",
     "static/media/Garyx-1.6ae0a5cf.jpg": "/COS/static/media/Garyx-1.6ae0a5cf.jpg",
@@ -39,9 +39,9 @@
     "static/media/woodElf.b836d2b0.jpg": "/COS/static/media/woodElf.b836d2b0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a07c5c4c.js",
-    "static/js/2.a8585159.chunk.js",
-    "static/css/main.48687332.chunk.css",
-    "static/js/main.e087d274.chunk.js"
+    "static/js/runtime-main.05c13370.js",
+    "static/js/2.f21b959a.chunk.js",
+    "static/css/main.717845f2.chunk.css",
+    "static/js/main.4e977594.chunk.js"
   ]
 }
